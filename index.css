@@ -1,0 +1,95 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Ordered List Styling */
+ol {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ol li {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #007BFF;
+    color: white;
+}
+
+td {
+    color: #555;
+}
+
+/* Form Styling */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 20px auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Multimedia Styling */
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+video, audio {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

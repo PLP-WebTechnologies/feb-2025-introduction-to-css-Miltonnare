@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Advanced HTML</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <ol type="I">
+        <li>Lists</li>
+        <li>Forms</li>
+        <li>Audio Controls</li>
+        <li>Images</li>
+        <li>Video Controls</li>
+    </ol>
+
+    <!-- External Image -->
+    <img src="https://www.pexels.com/photo/low-section-of-man-against-sky-247851/" width="400" height="400" alt="Man Against the SKY">
+
+    <!-- Contact Information Table -->
+    <table border="1">
+        <caption><strong>Contact Information</strong></caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Milton</td>
+                <td>Kajulu 12ER</td>
+                <td>09876643</td>
+                <td>kajulu@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Aisha</td>
+                <td>Nairobi 45TR</td>
+                <td>0712345678</td>
+                <td>aisha@gmail.com</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Mombasa 67OP</td
+                    ><td>0723456789</td>
+                    <td>john@gmail.com</td>
+                </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Kisumu 89WX</td>
+                <td>0734567890</td>
+                <td>mary@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Kevin</td>
+                <td>Eldoret 23TY</td>
+                <td>0745678901</td>
+                <td>kevin@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter Name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required><br>
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="country">Select Country:</label>
+        <select name="country" id="country" required>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="south-africa">South Africa</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="zimbabwe">Zimbabwe</option>
+        </select><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" value="male" name="gender" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="female" name="gender" required>
+        <label for="female">Female</label><br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" id="web-dev" name="skills" value="Web Developer">
+        <label for="web-dev">Web Developer</label><br>
+        <input type="checkbox" id="data-analyst" name="skills" value="Data Analyst">
+        <label for="data-analyst">Data Analyst</label><br>
+        <input type="checkbox" id="network-engineer" name="skills" value="Network Engineer">
+        <label for="network-engineer">Network Engineer</label><br>
+        <input type="checkbox" id="cloud-computing" name="skills" value="Cloud Computing">
+        <label for="cloud-computing">Cloud Computing</label><br><br>
+
+        <button type="submit">Submit</button><br><br>
+    </form>
+
+    <!-- Multimedia Elements -->
+    <div>
+        <video width="400" height="400" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+</body>
+</html>
